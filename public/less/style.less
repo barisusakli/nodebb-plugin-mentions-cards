@@ -30,11 +30,10 @@
       font-size: 15px;
       border-width:0;
       border-radius:50%;
+      color: black;
       background-color:transparent;
     }
   }
-
-
 }
 
 .profile-card-avatar {
@@ -68,6 +67,17 @@
     color: #777;
     text-overflow: ellipsis;
     overflow: hidden;
+
+    position:relative;
+  }
+  .aboutme > p::after {
+      content:"...";
+      font-weight:bold;
+      position:absolute;
+      bottom:0;
+      right:0;
+      padding:0 8px 1px 3px;
+      background-color: white;
   }
 
   .fullname {
@@ -106,13 +116,15 @@
     }
   }
 
+  .extra-sites {
+    margin-top: 20px;
+  }
+
   .profile-meta {
     font-size: 10px;
     // text-transform: uppercase;
     color: #777;
-    margin-top: 25px;
-    margin-bottom: 10px;
-
+    margin-top: 10px;
     strong {
       color: #333;
     }

@@ -145,7 +145,7 @@
 						}
 					});
 				},
-				cache: false
+				cache: true  // why cache false?
 			});
 		}, 500);
 	}

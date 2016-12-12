@@ -96,6 +96,23 @@
             </div>
         </div>
 
+        <div class="text-center extra-sites">
+            <ul class="list-inline">
+                <!-- BEGIN extraSites -->
+                <!-- IF extraSites.value -->
+                <li>
+                    <a href="{extraSites.value}" title="{extraSites.name}" target="_blank" rel="nofollow">
+                        <span class="fa-stack">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-stack-1x fa-inverse {extraSites.fa}">{extraSites.faText}</i>
+                        </span>
+                    </a>
+                </li>
+                <!-- ENDIF extraSites.value -->
+                <!-- END extraSites -->
+            </ul>
+        </div>
+
         <div class="text-center profile-meta">
             <!-- IF email -->
             <span><i class="fa fa-envelope-open-o" aria-hidden="true"></i></span>
