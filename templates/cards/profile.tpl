@@ -133,11 +133,11 @@
             <!-- ENDIF location -->
 
             <!-- IF isAdmin -->
-            <span class="account-bio-label">[[user:joined]]</span>
-            <span class="timeago account-bio-value" title="{joindateISO}"></span>
+            <span>[[user:joined]]</span>
+            <span class="timeago" title="{joindateISO}"></span>
 
-            <span class="account-bio-label">[[user:lastonline]]</span>
-            <span class="timeago account-bio-value" title="{lastonlineISO}"></span>
+            <span>[[user:lastonline]]</span>
+            <span class="timeago" title="{lastonlineISO}"></span>
             <!-- ENDIF isAdmin -->
         </div>
     </div>
