@@ -58,7 +58,16 @@
     </div>
 
     <div class="profile-card-info">
-        <h1 class="fullname"><!-- IF fullname -->{fullname}<!-- ELSE -->{username}<!-- ENDIF fullname --></h1>
+        <h1 class="fullname">
+        <!-- IF fullname -->
+            {fullname}
+            <small>
+                (@{username})
+            </small>
+        <!-- ELSE -->
+        {username}
+        <!-- ENDIF fullname -->
+        </h1>
 
         <div class="text-center">
             <!-- IF !isSelf -->
