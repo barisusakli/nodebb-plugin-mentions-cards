@@ -109,10 +109,10 @@
 							});
 							// Bind follow and unfollow
 							cardHTML.find('[component="account/follow"]').on('click', function(){
-								toggleFollow(cardHTML, 'follow', result.uid, result.username);
+								return toggleFollow(cardHTML, 'follow', result.uid, result.username);
 							});
 							cardHTML.find('[component="account/unfollow"]').on('click', function(){
-								toggleFollow(cardHTML, 'unfollow', result.uid, result.username);
+								return toggleFollow(cardHTML, 'unfollow', result.uid, result.username);
 							});
 
 							// Create card
