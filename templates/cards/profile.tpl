@@ -80,7 +80,7 @@
         </div>
 
         <!-- IF aboutme -->
-        <span class="text-center aboutme">{aboutme}</span>
+        <div class="text-center"><span class="aboutme">{aboutme}</span></div>
         <!-- ENDIF aboutme -->
 
         <div class="account-stats">
